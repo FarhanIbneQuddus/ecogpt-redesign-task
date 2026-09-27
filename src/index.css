@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@theme {
-  --color-brand-50: #eef6ff;
-  --color-brand-100: #d9ecff;
-  --color-brand-200: #bcddff;
-  --color-brand-300: #8ec8ff;
-  --color-brand-400: #59a8ff;
-  --color-brand-500: #2f86f6;
-  --color-brand-600: #1868ec;
-  --color-brand-700: #1453d0;
-  --color-brand-800: #1645a8;
-  --color-brand-900: #173d84;
-  --color-brand-950: #0f2547;
-}
 
 :root {
   --bg: #ffffff;

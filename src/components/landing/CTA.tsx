@@ -28,9 +28,9 @@ export function CTA({ navigate }: CTAProps) {
 
             <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Button
-                variant="secondary"
+                variant="white"
                 size="lg"
-                className="w-full bg-white text-brand-700 hover:bg-brand-50 sm:w-auto"
+                className="w-full sm:w-auto"
                 onClick={() => navigate('app')}
               >
                 <MessageSquare className="h-5 w-5" />
@@ -38,8 +38,9 @@ export function CTA({ navigate }: CTAProps) {
                 <ArrowRight className="h-4 w-4" />
               </Button>
               <Button
+                variant="outline-white"
                 size="lg"
-                className="w-full border border-white/30 bg-white/10 text-white hover:bg-white/20 sm:w-auto"
+                className="w-full sm:w-auto"
                 onClick={() => navigate('extension')}
               >
                 <Chrome className="h-5 w-5" />
